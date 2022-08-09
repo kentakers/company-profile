@@ -1,0 +1,43 @@
+body {
+    display: block;
+    min-width: 1000px;
+}
+
+.navbarTransitions {
+    color: black;
+
+}
+
+.navbarTransitions:hover {
+    color: blue;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.logo {
+    width: 100px;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    width: 300px;
+    text-decoration-color: blue;
+}
+
+.slide-img {
+    padding-top: 3rem;
+    margin-top: 0.5rem;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    
+}
+
+.about {   
+    padding-top: 3rem;
+}
+
+.product {
+    padding-top: 3rem;    
+}

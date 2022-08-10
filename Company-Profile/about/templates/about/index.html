@@ -1,20 +1,22 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us</title>
 
-     <!-- Offline -->
-     {% include 'snippets/styles.html' %}
+    <!-- Offline -->
+    {% include 'snippets/styles.html' %}
 
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-     
-     <link rel="stylesheet" href="{% static 'about/css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
 
 </head>
+
 <body>
     <!-- Navbar -->
     {% include 'snippets/navbar.html' %}
@@ -25,96 +27,50 @@
     </section>
 
     <!-- Content -->
-    <section class="content mt-3">         
-        <div class="container marketing">   
-                    
-            <!-- START THE FEATURETTES -->               
+    <section class="content">
+        <div class="container marketing">
+
+            <!-- START THE FEATURETTES -->
             <div class="row featurette text-center">
                 <div class="col-md-7">
                     <h5 class="featurette-heading fw-bold lh-1 text-primary">STATEMENT OF PRESIDENT DIRECTOR</h5>
-                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">PT. Onasis Indonesia is a domestic company that specializes in engineering, onshore & offshore services, and also underwater work, supporting vessels as well as procurement work in the oil and gas industry. Our vision is to become the market leader in contractor services for offshore & onshore in Southeast Asia. To achieve that, we have mission to enhance quality, healthy, safety, and environmental performance and conducting continual improvement of human resource and facilities to achieve profitability, growth, and healthy financial condition.
+                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">PT. Onasis Indonesia is a domestic
+                        company that specializes in engineering, onshore & offshore services, and also underwater work,
+                        supporting vessels as well as procurement work in the oil and gas industry. Our vision is to
+                        become the market leader in contractor services for offshore & onshore in Southeast Asia. To
+                        achieve that, we have mission to enhance quality, healthy, safety, and environmental performance
+                        and conducting continual improvement of human resource and facilities to achieve profitability,
+                        growth, and healthy financial condition.
                     </p>
-                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">We consider the opportunity to support our clients is irreplaceable. Therefore, we will support clients exceed their goals in the most cost-effective and time efficient manner. We will develop and maintain long-standing customer and subcontractor relationship to ensure complete customer satisfaction. We will strive to provide superior service that exceed requirements and expectations with a strong emphasis to deliver work at a reasonable cost.
+                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">We consider the opportunity to support
+                        our clients is irreplaceable. Therefore, we will support clients exceed their goals in the most
+                        cost-effective and time efficient manner. We will develop and maintain long-standing customer
+                        and subcontractor relationship to ensure complete customer satisfaction. We will strive to
+                        provide superior service that exceed requirements and expectations with a strong emphasis to
+                        deliver work at a reasonable cost.
                     </p>
-                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">With our quality policy, we will always strive the best. We answer all the clients problems with solution. That’s why we geared our people with the best tools knowledge, thus we can meet the challenge, not just from the clients, but also from the external and internal environment itself.
+                    <p class="lead text-xl-start fs-6" style="text-indent: 50px;">With our quality policy, we will
+                        always strive the best. We answer all the clients problems with solution. That’s why we geared
+                        our people with the best tools knowledge, thus we can meet the challenge, not just from the
+                        clients, but also from the external and internal environment itself.
                     </p>
                     <p class="lead text-xl-start fs-6 mb-4">Sincerely,</p>
                     <p class="lead text-xl-start fs-6">Ir. H. Imam Suharyadi, MM.</p>
                 </div>
                 <div class="col-md-5">
                     <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>         -->
-                    <img class="rounded" style="height: 450px;" src="{% static 'about/img/direksi.png' %}" alt="" srcset="">
-                </div>
-            </div>
-        
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">
-                <div class="col-md-8 order-md-2">
-                    <h2 class="featurette-heading fw-bold lh-1 text-primary">Vision</h2>
-                    <p class="lead">Our vision is to become the market leader in contractor services for offshore & onshore in Southeast Asia.</p>
-                </div>
-                <div class="col-md-4 order-md-1">
-                    <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/vision.png' %}">                    
-                </div>
-            </div>
-        
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">                
-                <div class="col-md-4">
-                    <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/mission.png' %}"> 
-                </div>
-                <div class="col-md-8">
-                    <h2 class="featurette-heading fw-bold lh-1 text-primary">Mission</h2>
-                    <p class="text-md-start fs-6">We have mission to enhance quality, healthy, safety, and environmental performance and conducting continual improvement of human resource and facilities to achieve profitability, growth, and healthy financial condition.</p>
-                </div>
-            </div>
-            
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">
-                <div class="col-md-8 order-md-2">
-                    <h2 class="featurette-heading fw-bold lh-1 text-primary">Corporate Value</h2>
-                    <ol>
-                        <li>
-                            <h5>Integrity</h5>
-                            <p class="text-md-start fs-6">We have ability to develop into a better and promote confidence and hard work in order to remain useful for companies, employees, and around our community.</p>
-                        </li>
-                        <li>
-                            <h5>Professionalism</h5>
-                            <p class="text-md-start">We work with passion and values that can build a better company with the same Mission and Vision. Expertise and Professional attitude into high value which we apply in the company.</p>
-                        </li>
-                        <li>
-                            <h5>Teamwork</h5>
-                            <p class="text-md-start">We can work together to resolve all existing jobs as well as together in solving the problems that arise with ideas and input from the team in our company.
-                            </p>
-                        </li>
-                        <li>
-                            <h5>Responsibility</h5>
-                            <p class="text-md-start">Responsibility is a priority that we put forward in completing all the work, including the contract with whom we are working and that has been in performance management.
-                            </p>
-                        </li>
-                        <li>
-                            <h5>Respectful</h5>
-                            <p class="text-md-start">various opinions and input received from both internal (employees) and external which appreciated good value to makes us confident to exist.</p>
-                        </li>
-                        <li>
-                            <h5>Social Responsibility</h5>
-                            <p class="text-md-start">We have a variety of programs that every time we invent to build better communities and interaction to the community around people that needs.
-                            </p>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-4 order-md-1">
-                    <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/value.png' %}">                    
+                    <img class="rounded" style="height: 450px;" src="{% static 'about/img/direksi.png' %}" alt=""
+                        srcset="">
                 </div>
             </div>
 
             <hr class="featurette-divider">
-        
+
+
+
+
             <!-- /END THE FEATURETTES -->
-        </div>        
+        </div>
     </section>
     <!-- End of Content -->
 
@@ -124,6 +80,7 @@
 
     <!-- Scripts -->
     {% include 'snippets/scripts.html' %}
-    <!-- End Scripts -->  
+    <!-- End Scripts -->
 </body>
+
 </html>

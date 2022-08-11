@@ -16,7 +16,7 @@ def index(request):
 def visionMission(request):
     context = {
         'title': 'Vision, Mission & Value',
-        'heading': 'Vision, Mission & Value PT. Onasis Indonesia',
+        'heading': 'Vision, Mission & Value',
         'app_css': 'about/css/styles.css',
     }
     return render(request, 'about/vision-mission.html', context)

@@ -15,7 +15,12 @@
 
     <!-- CSS App -->
     <link rel="stylesheet" type="text/css" href="{% static app_css %}">
-
+    <style>
+        .vision {
+            padding-top: 10rem;
+            /* background-color: blue; */
+        }
+    </style>
 </head>
 
 <body>
@@ -23,10 +28,9 @@
     {% include 'snippets/navbar.html' %}
     <!-- End of Navbar -->
 
-
     <section class="vision" id="vision">
-        <div class="container-md mt-n1">
-            <div class="row featurette fw-bold pb-5 text-primary">
+        <div class="container-md">
+            <div class="row featurette fw-bold text-primary">
                 <h3>{{heading}}</h3>
             </div>
             <div class="row featurette">
@@ -35,7 +39,7 @@
                     <p class="lead">Our vision is to become the market leader in contractor services for offshore &
                         onshore in Southeast Asia.</p>
                 </div>
-                <div class="col-md-4 order-md-1">
+                <div class="col-md-4 order-md-1 text-center">
                     <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/vision.png' %}">
                 </div>
             </div>
@@ -43,7 +47,7 @@
             <hr class="featurette-divider">
 
             <div class="row featurette">
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/mission.png' %}">
                 </div>
                 <div class="col-md-8">
@@ -99,7 +103,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="col-md-4 order-md-1">
+                <div class="col-md-4 order-md-1 text-center">
                     <img class="rounded" style="height: 150px;" src="{% static 'about/img/icons/value.png' %}">
                 </div>
             </div>

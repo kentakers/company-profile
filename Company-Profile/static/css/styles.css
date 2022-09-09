@@ -1,14 +1,12 @@
-body {
-
-    min-width: 1000px;
+.nav-link {
+    font-weight: 700;
+    font-size: 16px;
 }
 
-.navigasi {
-
-    margin-bottom: 3rem;
+.nav-link.active {
+    font-weight: 700;
 }
 
-
-#text {
-    text-align: center;
+.dropdown-item {
+    font-weight: 700;
 }

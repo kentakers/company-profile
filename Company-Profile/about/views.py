@@ -26,7 +26,8 @@ def visionMission(request):
 def orchart(request):
     context = {
         'title': 'Organization Chart',
-        'heading': 'Organization Chart PT. Onasis Indonesia',
+        'heading': 'Organization Chart',
+        'subheading': 'PT. Onasis Indonesia',
         'app_css': 'about/css/styles.css',
     }
     return render(request, 'about/orchart.html', context)

@@ -1,4 +1,8 @@
-.vision h4:after {
+.heading {
+    font-weight: 500;
+}
+
+.subheading:after {
     background: #d6fc1c;
     content: "";
     display: block;

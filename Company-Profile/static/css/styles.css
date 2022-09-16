@@ -8,5 +8,9 @@
 }
 
 .dropdown-item {
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.slide-img {
+    margin-top: 0px;
 }
